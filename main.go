@@ -6,6 +6,7 @@ import (
 	"log"
 
 	"github.com/heedson/aoc2017/day1"
+	"github.com/heedson/aoc2017/day2"
 )
 
 type day interface {
@@ -15,6 +16,7 @@ type day interface {
 
 var days = []day{
 	day1.New(),
+	day2.New(),
 }
 
 func main() {
